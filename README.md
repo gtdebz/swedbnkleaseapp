@@ -2,10 +2,15 @@
 
 -   This is a mobile responsive and multi-step online interactive form that accepts registration details of a bank customer who is in the process of creating a           Vehicle Lease Agreement.
 -   The user interface of the multi-step form was created using React JSX, HTML and CSS.
--   React framework was installed using the Node Package Manager (NPM) command - "npm create-rect-app".
--   The production files which are called Build files in React were created in the local root directory using the command - "npm run build". 
--   To view the page run the command "npm start" within the root directory of the React project using a command line tool like Powershell, Windows command prompt or       Visual Studio Code.
+-   React framework can be installed by first installing Node.js. To do this go to the Node.js website https://nodejs.org/en/download/, download the Node.js setup
+    and run it. The node installation provides us with Node Package Manager (NPM) that React uses to manage and set up the project files.
+-   The project files are made available for production by using Node Package Manager (NPM) to create the production build. You can create a production build by using     the command below within any terminal. You must be inside the project folder.
 
+         -   npm run build
+           
+-   To view the page on a browser, go to the root directory of the React project use a command line tool like Powershell, Windows command prompt or Visual Studio Code     to run the command 
+     
+         -   npm start
 
 # Step 1. How to install React and create a React project using Create React App
 
@@ -13,18 +18,19 @@ To install React you first have to install Node.js which is a Javascript runtime
 Next create a project folder on your computer that will serve as the root directory that will house our React project files.
 Navigate into the project folder using any terminal, Powershell, Visual Studio Code or DOS Command Prompt
 We first need to open our terminal or command line on our computer within the root folder created.
+
 To create a new React project, we can use the tool npx, provided you have an npm version of at least 5.2.
 
 Note: You can check what npm version you have by running in your terminal 
 
-    -   npm -v
+          -   npm -v
     
 Npx gives us the ability to use the create-react-app package without having to first install it on our computer, which is very convenient.
 Using npx also ensures that we are using latest version of Create React App to create our project:
 
 To create our React app you can simply run:
 
-    -    npx create-react-app leaseapp
+          -   npx create-react-app leaseapp
 
 Once we run this command, a folder named "leaseapp" will be created where we specified on our computer and all of the packages it requires will be automatically installed.
 Note: Creating a new React app with create-react-app will usually take 2-3 minutes, sometimes more.
@@ -59,7 +65,7 @@ Note: A new Git repository is created whenever you make a new project with Creat
 Once you have dragged your project into your code editor, you can open up your terminal (in VSCode, go to View > Terminal).
 To start your React project, you can simply run:
 
-    -   npm start
+           -   npm start
 
 When we run our project, a new browser tab will automatically open on our computer's default browser to view our app.
 The development server will start up on localhost:3000 and, right away, we can see the starting home page for our app.
