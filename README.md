@@ -59,7 +59,7 @@ Note: A new Git repository is created whenever you make a new project with Creat
 Once you have dragged your project into your code editor, you can open up your terminal (in VSCode, go to View > Terminal).
 To start your React project, you can simply run:
 
-     -   npm start
+    -   npm start
 
 When we run our project, a new browser tab will automatically open on our computer's default browser to view our app.
 The development server will start up on localhost:3000 and, right away, we can see the starting home page for our app.
